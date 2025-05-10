@@ -24,7 +24,9 @@ class URI
 			int L = Convert.ToInt32(numbers[0]);
 			int R = Convert.ToInt32(numbers[1]);
 			if (L == 0 && R == 0)
+			{
 				break;
+			}
 			else if (L >= 1 && L <= 5 && R >= 1 && R <= 5)
 			{
 				Console.WriteLine(L + R);
